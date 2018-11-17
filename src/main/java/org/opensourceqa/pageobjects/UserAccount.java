@@ -1,16 +1,16 @@
 package org.opensourceqa.pageobjects;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.opensourceqa.helper.LogHelper;
+//import org.opensourceqa.helper.LogHelper;
 import org.opensourceqa.helper.WaitHelper;
 
 public class UserAccount {
 	WebDriver driver;
-	private final Logger logger = LogHelper.getLogs(HomePage.class);
+	//private final Logger logger = LogHelper.getLogs(HomePage.class);
 	WaitHelper control;
 	
 	@FindBy(xpath = "//*[text()= 'Order history and details']")
